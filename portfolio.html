@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 46px; 
+        }
+	
+	.transparent-navbar {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease;
+	}
+
+	.transparent-navbar.nav-scrolled {
+    	background-color: blue !important; 
+	}
+
+	.welcome-container {
+             height: 100vh;
+            display: flex;
+            align-items: center;
+            background-image: url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+	        background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: black;
+        }
+        .welcome-text {
+            flex: 1;
+            padding: 20px;
+        }
+        .welcome-text h1 {
+            font-size: 4em;
+            margin-bottom: 0.5em;
+        }
+        .welcome-text p {
+            font-size: 1.5em;
+        }
+        .welcome-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .welcome-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+
+        
+	.welcome-text {
+    color: white;
+    margin-top: 20px; 
+}
+
+
+    </style>
+</head>
+
+<body>
+    
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top transparent-navbar">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#introduction">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#biography">Biography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="welcome-container" id="welcome">
+      <div class="welcome-text">
+          <h1>Welcome to My Portfolio</h1>
+          <p>I'm B S Bhavana,a passionate Web Developer.</p>
+      </div>
+      <div class="welcome-image">
+          <img src="/home/apiiit123/Desktop/java.png" alt="Software Developer Image" height="50" width="50">
+      </div>
+  </div>
+   
+
+    <div class="container mt-4">
+        <h2 id="introduction">Introduction:</h2>
+        <p>
+            Greetings! I'm B.S. Bhavana, a dedicated third-year student pursuing a Bachelor of Technology (B.Tech) degree in Computer Science and Engineering (CSE) at IIIT RGUKT RK Valley, Kadapa. My journey into the captivating world of technology commenced with a childhood curiosity that evolved into a profound passion for web development. Fueled by an insatiable thirst for knowledge, I've embarked on a relentless pursuit of mastering the intricacies of frontend development. My academic endeavors have equipped me with a solid foundation in essential technologies like HTML, CSS, JavaScript, Bootstrap, and Java, empowering me to craft immersive and engaging web experiences. Beyond the confines of academia, I'm actively engaged in practical experiences to augment my learning journey. Currently serving as a Frontend Developer Intern at Elfinity Technologies, I'm immersed in real-world projects, where I channel my creativity and expertise to design intuitive and visually stunning web interfaces. With a firm commitment to excellence and a penchant for pushing boundaries, I embrace each project as an opportunity for growth and innovation. I'm eager to connect with fellow enthusiasts, collaborate on exciting ventures, and contribute meaningfully to the dynamic landscape of web development.
+        </p>
+        <h2 id="biography">Biography:</h2>
+        <p>
+            B.S. Bhavana is a passionate and driven individual currently in her third year pursuing a Bachelor of Technology (B.Tech) degree in Computer Science and Engineering (CSE) at IIIT RGUKT RK Valley, Kadapa. From a young age, Bhavana exhibited a keen interest in technology, which blossomed into a profound fascination with web development during her academic journey. Her relentless curiosity and determination led her to delve deep into the realm of frontend development, where she has since cultivated a robust skill set encompassing HTML, CSS, JavaScript, Bootstrap, and Java. Embracing challenges as opportunities for growth, Bhavana approaches every project with enthusiasm and a commitment to delivering high-quality solutions. Outside of her academic pursuits, Bhavana has embraced practical experiences to augment her learning. Currently serving as a Frontend Developer Intern at Elfinity Technologies, she is actively involved in real-world projects, applying her knowledge to create intuitive and visually appealing web interfaces. With a strong foundation in frontend technologies and a thirst for continual improvement, Bhavana is poised to make meaningful contributions to the ever-evolving landscape of web development. She is eager to embark on new challenges, collaborate with like-minded individuals, and leave a lasting impact through her passion for technology and innovation.
+        </p>
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <img src="/home/apiiit123/Desktop/b.jpg" class="img-fluid" alt="Bhavana Image" height="400" width="400">
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title" id="contact">Contact Information:</h5>
+                        <p class="card-text">
+                            <h6>Email ID: <a href="mailto:bhavanabs428@gmail.com">bhavanabs428@gmail.com</a></h6>
+                            <h6>Mobile No: <a href="tel:9059230676">9059230676</a></h6>
+                            <h6>LinkedIn: <a href="https://www.linkedin.com/in/bs-bhavana/">bs-bhavana</a></h6>
+                            <h6>Github Profile: <a href="https://github.com/bhavana428">bsbhavana</a></h6>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Technical Skills:</h5>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Soft Skills:</h5>
+                        <ul>
+                            <li>Communication</li>
+                            <li>Team work</li>
+                            <li>Problem Solving</li>
+                            <li>Time management</li>
+                            <li>Adaptability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 id="projects">Projects:</h2>
+        <h4>1. Transport Company Computerization Software</h4>
+        <p>
+            <b>Description:</b> The Transport Company Computerization Software is a comprehensive solution designed to streamline the operations of transportation companies. It facilitates efficient management of various aspects such as fleet tracking, scheduling, inventory management, and customer management.<br>
+            <b>Technologies:</b> HTML, CSS, JavaScript, MySQL, Java.<br>
+            <b>Role:</b> As a frontend developer for the Transport Company Computerization Software project, my primary responsibility was to design and implement the user interface (UI) components of the application. Leveraging my expertise in HTML, CSS, and JavaScript, I played a pivotal role in creating a visually appealing and intuitive interface that enhances the user experience.
+        </p>
+        <h4>2. Quiz-Champ</h4>
+        <p>
+            <b>Description:</b> The Quiz Application is a web-based platform designed to create and take quizzes on various topics. Users can register, log in, and browse through a library of quizzes to test their knowledge. The application supports multiple-choice questions and provides instant feedback on quiz results.<br>
+            <b>Technologies:</b> HTML, CSS, JavaScript, MySQL, PHP.<br>
+            <b>Role:</b> Designing and implementing the frontend user interface using HTML, CSS, JavaScript, and Bootstrap. Developing the backend functionality using PHP to handle user authentication, quiz creation, and quiz taking. Integrating the MySQL database to store user information, quiz data, and results. Ensuring the application's responsiveness and cross-browser compatibility for a seamless user experience.
+        </p>
+       <h2 id="experience">Experience:</h2>
+        <h5>Frontend Developer Intern</h5>
+        <h5>Elfinity Technologies | May 2024 - Present</h5>
+        <p>
+            As a passionate and dedicated third-year B.Tech student at IIIT RGUKT RK Valley, I'm currently honing my skills as a Frontend Developer Intern at Elfinity Technologies in Bangalore. My role involves designing and implementing user interfaces that are both visually appealing and highly functional. I had the opportunity to immerse myself in real-world projects, gaining hands-on experience in frontend development and contributing to the development of intuitive and visually appealing web interfaces.
+        </p>
+        <h2 id="education">Education:</h2>
+        <p>
+            Bachelor of Technology (B.Tech) in Computer Science and Engineering at IIIT RGUKT RK Valley, Kadapa.<br>
+            <b>Duration:</b> May 2021 - Expected Graduation in 2025.
+        </p>
+        <p>
+            Intermediate-MPC at IIIT RGUKT RK Valley, Kadapa.<br>
+            <b>Duration:</b> September 2019 - May 2021.
+        </p>
+
+        <footer id="footer">
+            <div class="container text-center">
+                <button class="btn btn-primary" onclick="window.location.href = 'https://www.linkedin.com/in/bs-bhavana/';">Follow on LinkedIn</button>
+            </div>
+        </footer>
+
+    </div>
+<script>
+    window.addEventListener('scroll', function() {
+        var navbar = document.querySelector('.navbar');
+        navbar.classList.toggle('nav-scrolled', window.scrollY > 0);
+    });
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
